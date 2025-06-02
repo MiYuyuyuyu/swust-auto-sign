@@ -41,8 +41,7 @@ export S_TEACHER="教师姓名_教师工号"
 export S_TUTOR_TEACHER="导师姓名_导师工号"
 ```
 顺便一提是这个网站的密码(不是一站式的密码)
-![这是图片](asset\img\页面截图.png "Magic Gardens")
-
+[![页面截图图片](assets\img\页面截图.png "演示图片")](https://github.com/MiYuyuyuyu/swust-auto-sign/blob/master/asset/img/%E9%A1%B5%E9%9D%A2%E6%88%AA%E5%9B%BE.png)
 
 ## 运行程序
 
@@ -159,7 +158,7 @@ https://jkxb.swust.edu.cn/#/signByTaskMap?task_id=b1f3d078904adb0dbdc
 创建新脚本并粘贴以上代码
 访问签到页面
 页面加载时会自动捕获位置ID并弹出提示
-![这是图片](asset\img\演示油猴.png "Magic Gardens")
+[![油猴演示图片](assets\img\演示油猴.png "演示图片")](https://github.com/MiYuyuyuyu/swust-auto-sign/blob/master/asset/img/%E6%BC%94%E7%A4%BA%E6%B2%B9%E7%8C%B4.png)
 
 
 3. **签到坐标**：使用高德地图获取实际位置的经纬度  
