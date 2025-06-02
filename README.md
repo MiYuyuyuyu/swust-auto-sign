@@ -40,6 +40,8 @@ export LABS="你的班级"
 export S_TEACHER="教师姓名_教师工号"
 export S_TUTOR_TEACHER="导师姓名_导师工号"
 ```
+顺便一提是这个网站的密码(不是一站式的密码)
+![这是图片](asset\img\页面截图.png "Magic Gardens")
 
 
 ## 运行程序
@@ -74,7 +76,7 @@ cargo run
 
 在签到页面的URL中找到 `task_id` 参数：
 https://jkxb.swust.edu.cn/#/signByTaskMap?task_id=b1f3d078904adb0dbdc
-└─────────┘
+└─────────────────────────────────────────────┘
 
 
 2. **位置ID**：
@@ -157,9 +159,11 @@ https://jkxb.swust.edu.cn/#/signByTaskMap?task_id=b1f3d078904adb0dbdc
 创建新脚本并粘贴以上代码
 访问签到页面
 页面加载时会自动捕获位置ID并弹出提示
+![这是图片](asset\img\演示油猴.png "Magic Gardens")
+
 
 3. **签到坐标**：使用高德地图获取实际位置的经纬度  
-4. **教师信息**：从学校教务系统或班级通知中获取  
+4. **教师信息**：如上图  
 
 ## 注意事项
 
@@ -172,12 +176,6 @@ https://jkxb.swust.edu.cn/#/signByTaskMap?task_id=b1f3d078904adb0dbdc
 ## 贡献指南
 
 欢迎提交 Pull Request 改进本项目：
-
-1. Fork 本项目  
-2. 创建新分支 (`git checkout -b feature/your-feature`)  
-3. 提交更改 (`git commit -am 'Add some feature'`)  
-4. 推送到分支 (`git push origin feature/your-feature`)  
-5. 创建 Pull Request  
 
 ## 许可证
 
